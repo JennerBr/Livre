@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
 time.sleep(20)
-# selecionar destinatario abc
+# selecionar destinatario
 dests = ['11 97521-1314','Quintal Vendas']
 msg = 'Olá, ?cliente?! Está tudo bem? Segue lista de disponibilidades. Se quiser algo, é só pedir. Obrigado, Jenner.'
 
